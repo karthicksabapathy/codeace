@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+
+body{font-family: 'Baloo 2', cursive;}
+/* FAQ CSS */
+#faqsec{
+padding:70px 0px 90px;
+}
+.center{text-align: center;}
+.sectitle h3
+{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.85);
+margin-top: 15px;
+margin-bottom: 70px;
+line-height: 41px;
+}
+.sectitle b
+{
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 24px;
+text-align: center;
+color: #FE753E;
+}
+#accordion .card
+{
+margin-bottom: 35px;border: none;
+}
+#accordion .card-header
+{
+padding: 0px;
+background: #F7F7F7;
+border-radius: 8px;
+border: none;
+}
+#accordion .card-header button
+{
+display: block;
+width: 100%;
+text-align: left;
+padding: 18px 28px 18px 40px;    
+border-radius: 8px;
+border: none;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-decoration: none!important;
+position: relative;
+z-index: 1;
+box-shadow: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+white-space: normal;
+}
+#accordion .card-header button {
+    background: #33bf8d;
+    color: #fff;
+}
+#accordion .card-header button.collapsed
+{
+background: #F7F7F7;
+color: rgba(0, 0, 0, 0.85);
+}
+#accordion .card-body
+{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.85);
+}
+#accordion .card-header button.collapsed img.arrowup
+{
+display: none;
+}
+#accordion .card-header button img.arrowdown
+{
+display: none;
+}
+#accordion .card-header button.collapsed img.arrowdown
+{
+display: block;
+}
+#accordion .collapse
+{
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+border-radius: 8px;
+margin-top: -7px;
+}
+.flex-between
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+@media (max-width: 767px)
+{
+.logo img {width: 100%;}
+#accordion .card-header button{ padding: 18px 28px 18px 20px;}
+}
