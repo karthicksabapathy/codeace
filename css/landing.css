@@ -1228,4 +1228,49 @@ ul.banner_list li {
     background: #ececec;
 }
 
+.circle-img {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 90px;
+    border: 5px solid #FFFFFF;
+}
+
+@media only screen and (max-width:991px){
+    .carousel-control-prev {
+        left: -70px;
+    }
+    .carousel-control-next {
+        right: -70px;
+    }
+    .benefit1 {
+        right: 19px;
+        width: 250px;
+        left: auto;
+    }
+    .benefit2 {
+        right: 0px;
+        width: 250px;
+        left: auto;
+    }
+    
+.benefit3 {
+    right: -5px;
+    width: 250px;
+    left: auto;
+}
+.benefit4 {
+    left: 0;
+    width: 250px;
+}
+.benefit5 {
+    left: 0;
+    width: 250px;
+}
+.benefit6 {
+    left: 0;
+    width: 290px;
+}
+}
+
 
