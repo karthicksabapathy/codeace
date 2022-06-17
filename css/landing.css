@@ -1234,6 +1234,7 @@ ul.banner_list li {
     overflow: hidden;
     border-radius: 90px;
     border: 5px solid #FFFFFF;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width:991px){
