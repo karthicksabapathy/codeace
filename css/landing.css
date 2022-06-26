@@ -396,7 +396,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding-top: 40px;
     padding-bottom: 100px;
     margin-bottom: 20px;
-    align-items: ;
 }
 .pricing-card h3{
     color: #303030;
@@ -878,7 +877,6 @@ a.active.show:after {
     right: -4px;
     top: 12px;
     transform: rotate(45deg);
-    we
 }
 
 .btn-red {
@@ -1050,7 +1048,7 @@ a.active.show:after {
 }
 .benefit3 {
     position: absolute;
-    bottom: 340px;
+    bottom: 310px;
     left: -35px;
     display: flex;
     align-items: center;
@@ -1058,7 +1056,7 @@ a.active.show:after {
 }
 .benefit4 {
     position: absolute;
-    bottom: 340px;
+    bottom: 310px;
     right: 15px;
     display: flex;
     align-items: center;
@@ -1098,6 +1096,8 @@ a.course-btn {
     background-color: #33bf8d;
     border-color: #33bf8d;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 10px;
 }
 
 .our-teams {
@@ -1236,6 +1236,15 @@ ul.banner_list li {
     border: 5px solid #FFFFFF;
     margin: 0 auto;
 }
+.course-cont p {
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width:1024px) {
+    a.course-btn {
+        font-size: 12px;
+    }
+}
 
 @media only screen and (max-width:991px){
     .carousel-control-prev {
@@ -1272,6 +1281,50 @@ ul.banner_list li {
     left: 0;
     width: 290px;
 }
+}
+@media only screen and (max-width:540px) {
+    .banner-info h1 {
+        font-size: 30px;
+    }
+    .benefits-content {
+        height: 800px;
+    }
+    .benefit3 {
+        right: -180px;
+        bottom: 490px;
+    }
+    .benefit4 {
+        left: -110px;
+        bottom: 400px;
+    }
+    .benefit2 {
+        right: -375px;
+        bottom: 310px;
+    }
+    .benefit5 {
+        left: -110px;
+        bottom: 220px;
+    }
+    .benefit1 {
+        right: -140px;
+        bottom: 130px;
+    }
+    .benefit6 {
+        left: -120px;
+        bottom: 40px;
+    }
+    .benefits-child h3 {
+        font-size: 18px;
+    }
+    .carousel-control-prev {
+        left: -40px;
+    }
+    .carousel-control-next {
+        right: -40px;
+    }
+    .coding-shape2 {
+        left: 40px;
+    }
 }
 
 
